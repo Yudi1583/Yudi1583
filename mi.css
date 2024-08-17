@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.contenedor {
+    margin: 0%;
+    padding: 0%;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: blue;
+    text-align: left;
+}
+img {
+    text-align: center;
+    container: flex;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: blue;
+    text-align: left;
+}
+p {
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:lighter;
+    font-size: 18px;
+}
+#cabecera {
+    float: left;
+}
+#cuerpo {
+    float: left;
+    width: 100%;
+}
+#col {
+    float: left;
+    text-align: center;
+    width: 100%;
+
+}
+#pie {
+    clear: left;
+}
+li {
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 18px;
+}
+@media (min-width:768px) {
+    .contenedor {
+        width: 100%;
+    }
+}
